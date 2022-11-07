@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/34a5413d64.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: rgb(17, 17, 17);
+        }
+        #fs {
+            display: flex;
+           position: absolute;
+           top: 0;
+           right: 0;
+           background-color: rgb(55, 54, 54);
+           height: 35px;
+           width: 55px;
+          justify-content: center;
+           align-items: center;
+           right: -9px;
+           padding-bottom: 6px;
+           font-size: 20px;
+          
+           
+           
+        }
+        #name{
+            display: flex;
+           
+            margin: auto;
+            width: 100%;
+            height:35px ;
+            background-color: black;
+            color: gray;
+            
+
+
+        }
+        #search{
+            width: 40%;
+            height: 35px;
+            background-color: black;
+            margin: auto;
+             position: relative;
+
+        }
+        #show{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        
+        h3{
+            color: white;
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        img{
+            width: 100%;
+        }
+        #logo{
+            width: 8%;
+            height: 50px;
+        
+            margin-left: 10px;
+            border-radius: 20%;
+            
+        }
+        #yt{
+            width: 100%;
+            height: 50px;
+            border-radius: 20%;
+        }
+        #sort{
+            margin: auto;
+            padding: 10px 20px 10px 20px;
+            border-radius: 15px;
+            margin-left: 20px;
+            background-color: white;
+            color: red;
+        }
+        #sort:hover{
+
+            background-color: red ;
+            color: white;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="logo">
+        <img id="yt" src="https://c.tenor.com/tYIUpIiF-LIAAAAC/youtube-logo.gif" alt="">
+    </div>
+    <div id="search">
+
+        <input type="text" id="name" placeholder="Search">
+        <i id="fs" class="fa-solid fa-magnifying-glass"></i>
+        
+
+    </div>
+    <button id="sort">Sort</button>
+
+    <div id="show">
+
+    </div>
+</body>
+</html>
+<script src="/node.js">
+
+</script>
